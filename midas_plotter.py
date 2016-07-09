@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+# MIDAS_plotter : Auxiliary scripts for MIDAS 
+# Copyright (C) 2016 Beltran Rodriguez-Mueller
+# Freely distributed under the MIT License
 import os, numpy, random, argparse
 import matplotlib as mpl
 mpl.use('Agg')
