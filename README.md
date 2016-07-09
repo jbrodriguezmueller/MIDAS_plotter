@@ -19,6 +19,10 @@ cp midas_plotter.py /path/to/MIDAS/scripts
 That will ensure it's
 2) get the tutorial running. once your tutorial is running and you have the two species done, find the output of `merge_species.py`
 
-Run the examples.
-Run the "merge_species" part of the tutorial of MIDAS
-Then copy 
+let's assume that the output goes into a directory called "merged_species" :
+then running these commands:
+```
+mkdir plots
+midas_plotter.py --in merged_species/ --out plots --min_coverage=0.05 --dpi=300
+```
+Will give you a couple of nice coverage and read count plots.
