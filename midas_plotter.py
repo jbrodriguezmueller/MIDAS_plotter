@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import os, numpy, random, argparse
 import matplotlib as mpl
 mpl.use('Agg')
